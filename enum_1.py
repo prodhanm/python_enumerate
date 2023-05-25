@@ -1,7 +1,5 @@
-num_list = [num for num in range(1, 11)]
-
-def ind_func(num_list):
-    for i, num in enumerate(num_list):
+def ind_func():
+    for i, num in enumerate(list(range(1,11))):
         print(f"{i}:{num}")
 
-print(ind_func(num_list))
+print(ind_func())
